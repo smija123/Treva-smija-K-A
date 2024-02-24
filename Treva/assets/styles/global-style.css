@@ -1,0 +1,97 @@
+/* Reset some default styles to ensure consistency across browsers */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  line-height: normal;
+  color: #000000;
+  background-color: #F1F5F9 !important;
+}
+
+@media (min-width: 576px) {
+  body {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 992px) {
+  body {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  body {
+    font-size: 1rem;
+  }
+}
+
+i.size {
+  font-size: 150px;
+}
+
+.btn-site {
+  font-size: 0.9375rem;
+  background-color: #2783f3;
+  border-radius: 4px;
+  color: #FFFFFF;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 24px;
+  padding: 12px 20px;
+}
+
+@media (min-width: 576px) {
+  .btn-site {
+    font-size: 0.9375rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .btn-site {
+    font-size: 0.9375rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .btn-site {
+    font-size: 0.9375rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .btn-site {
+    font-size: 0.9375rem;
+  }
+}
+
+/* Reset some default styles to ensure consistency across browsers */
+/*# sourceMappingURL=global-style.css.map */

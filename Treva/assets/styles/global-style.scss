@@ -1,0 +1,47 @@
+@import "variables.scss";
+@import "mixins-styles/responsonive-media-query.scss";
+@import "mixins-styles/font-px-to-rem.scss";
+
+/* Reset some default styles to ensure consistency across browsers */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+ul,
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+body {
+  font-family: "Inter", sans-serif;
+  @include rem(16px);
+  line-height: normal;
+  color: $black;
+  background-color: $bg-color !important;
+}
+i.size {
+  font-size: 150px;
+}
+.btn-site {
+  @include rem(15px);
+  background-color: $btn-blue;
+  border-radius: 4px;
+  color: $white;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 24px;
+  padding: 12px 20px;
+}
+/* Reset some default styles to ensure consistency across browsers */
+

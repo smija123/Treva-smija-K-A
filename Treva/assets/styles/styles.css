@@ -1,0 +1,312 @@
+/* Reset some default styles to ensure consistency across browsers */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  line-height: normal;
+  color: #000000;
+  background-color: #F1F5F9 !important;
+}
+
+@media (min-width: 576px) {
+  body {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 992px) {
+  body {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  body {
+    font-size: 1rem;
+  }
+}
+
+i.size {
+  font-size: 150px;
+}
+
+.btn-site {
+  font-size: 0.9375rem;
+  background-color: #2783f3;
+  border-radius: 4px;
+  color: #FFFFFF;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 24px;
+  padding: 12px 20px;
+}
+
+@media (min-width: 576px) {
+  .btn-site {
+    font-size: 0.9375rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .btn-site {
+    font-size: 0.9375rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .btn-site {
+    font-size: 0.9375rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .btn-site {
+    font-size: 0.9375rem;
+  }
+}
+
+/* Reset some default styles to ensure consistency across browsers */
+@media only screen and (min-width: 1200px) and (max-width: 1500px) {
+  .container {
+    max-width: 1070px !important;
+    margin: 0px auto;
+    overflow: hidden;
+  }
+}
+
+.dropdown-toggle::after {
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  -webkit-transform: translateY(50%);
+          transform: translateY(50%);
+}
+
+.dropdown-toggle::before {
+  margin-right: 0.5rem;
+}
+
+body {
+  background-color: #F1F5F9 !important;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 80px;
+  background-color: linear-gradient(180deg, #03062f 0%, #180b74 100%) !important;
+  z-index: 1000;
+}
+
+section#home {
+  height: 100vh;
+}
+
+section#home div.home {
+  background: url(../images/Treva-bg-home.png) !important;
+  background-position: top;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  height: 750px;
+  position: relative;
+  z-index: -1;
+}
+
+section#home div.home .home-content {
+  padding-top: 104px;
+  margin: 0 auto;
+}
+
+section#home div.home .home-content .first-col h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  line-height: 53px;
+  color: #FFFFFF;
+}
+
+@media (min-width: 576px) {
+  section#home div.home .home-content .first-col h1 {
+    font-size: 2.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  section#home div.home .home-content .first-col h1 {
+    font-size: 2.5rem;
+  }
+}
+
+@media (min-width: 992px) {
+  section#home div.home .home-content .first-col h1 {
+    font-size: 2.5rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  section#home div.home .home-content .first-col h1 {
+    font-size: 2.5rem;
+  }
+}
+
+section#home div.home .home-content .first-col h4 {
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 28px;
+  color: #FFFFFFB2;
+  padding-top: 24px;
+  padding-bottom: 32px;
+}
+
+@media (min-width: 576px) {
+  section#home div.home .home-content .first-col h4 {
+    font-size: 1.125rem;
+  }
+}
+
+@media (min-width: 768px) {
+  section#home div.home .home-content .first-col h4 {
+    font-size: 1.125rem;
+  }
+}
+
+@media (min-width: 992px) {
+  section#home div.home .home-content .first-col h4 {
+    font-size: 1.125rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  section#home div.home .home-content .first-col h4 {
+    font-size: 1.125rem;
+  }
+}
+
+section#contact-us {
+  margin-top: 240px;
+  margin-bottom: 204px;
+}
+
+section#contact-us .contact-us {
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  padding: 64px;
+  -webkit-box-shadow: 0px 6px 12px 0px #0000001a;
+          box-shadow: 0px 6px 12px 0px #0000001a;
+}
+
+section#contact-us .contact-us h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: center;
+  color: #03062F;
+}
+
+@media (min-width: 576px) {
+  section#contact-us .contact-us h1 {
+    font-size: 2.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  section#contact-us .contact-us h1 {
+    font-size: 2.5rem;
+  }
+}
+
+@media (min-width: 992px) {
+  section#contact-us .contact-us h1 {
+    font-size: 2.5rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  section#contact-us .contact-us h1 {
+    font-size: 2.5rem;
+  }
+}
+
+section#contact-us .contact-us h6 {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: center;
+  color: #03062F;
+}
+
+section#contact-us .contact-us form .submit-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section#contact-us .contact-us form label {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #03062F;
+}
+
+@media (min-width: 576px) {
+  section#contact-us .contact-us form label {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 768px) {
+  section#contact-us .contact-us form label {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 992px) {
+  section#contact-us .contact-us form label {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  section#contact-us .contact-us form label {
+    font-size: 1rem;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
